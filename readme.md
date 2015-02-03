@@ -1,10 +1,12 @@
 nfsn.py
 =======
 
-nfsn.py is an ultra simple NFSN API helper build on [requests][]. nfsn.py is
+nfsn.py is an ultra simple NFSN API helper built on [requests][]. nfsn.py is
 a [requests custom authentication helper][requests-auth] that implements the
-NFSN [request signing protocol][nfsn-api]. Using it really simple, just
-put `nfsn.py` in your current directory and then use it:
+NFSN [request signing protocol][nfsn-api]. Using it is really simple, just
+put `nfsn.py` in the same directory as your other python files.
+
+Here's a small example:
 
 ```python
 import requests
